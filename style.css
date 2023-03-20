@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Gasalt-Black;
+    src: url(fonts/Gasalt-Black.ttf );
+    }
+
+body{
+    text-align: center;
+    background-color: lightgray;align-items:center ;
+}
+.container{
+
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    background: white;
+    height: 450px;
+
+} 
+
+.profile-picture-align {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    } 
+
+
+.profile{
+    font-family: Gasalt-Black;
+    /* color: black; */
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* @font-face {
+        font-family: Gasalt-Black;
+        src: url(fonts/Gasalt-Black.ttf);
+        } */
+.bio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+.name{
+    font-family: Gasalt-Black;
+
+}
+
+a{
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.social-link{
+    color:  #3b5998;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.social-link:hover{
+    background-color:  #4c75ce;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+
+
+}
+.social{ 
+    width: 20px;
+    float: left;
+    display: block;
+
+}
